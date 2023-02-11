@@ -2,8 +2,17 @@
     --dark: #000000;
     --mid: #556B2F;
     --light: #BDB76B;
+    --secondlight:  #7a7752;
     --textlight: #F5F5DC;
+}
 
-
-
+body{
+    background-color: var(--dark);
+}
+.header{
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    background-color: var(--dark);
+    color: var(--textlight);
 }
